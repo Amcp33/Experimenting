@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hd {
+    border: solid 10px black;
+    width: 620px;
+    display: inline-block;
+    position: relative;
+    left: 600px;
+}

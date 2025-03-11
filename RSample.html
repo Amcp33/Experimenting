@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box {
+            background-color: aquamarine;
+            height: 300px;
+            width: 300px;
+            border: solid 5px black;
+        }
+        .code {
+            margin: 80px 10px;
+            z-index: 100;
+            position: relative;
+        }
+
+        #miku {
+            height: 300px;
+            position: absolute;
+            z-index: 1;
+            opacity: .3;
+        }
+
+        .h {
+            background-color: lightblue;
+            width: 602px;
+            border: solid 3px black;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        #red {
+            color: red;
+            background-color: black;
+            width: 480px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Css Overview</h1>
+    <div class=h><h2>What? Why do you look so weird? Did something happen?</h2></div>
+<hr>
+<h3>okay this is the most important part. Css decorates the website. Let me give you an example.</h3>
+<h3>There is  a box. It is color aquamarine, and has a border.</h3><div class="box"></div>
+<h3>Pretty right? Now I will attempt to add that same box, but with a screenshot of the code that makes that box</h3>
+<div class="box"><img class="code" src="./Images/ssimgboxcode.png" height="110px" alt="code for aquamarine box"/></div>
+<h3>Now let us try the same thing, but with a link inside the image only!! (I am experimenting at this point.)</h3>
+<div class="box"> <img id="miku" src="./Images/Miku.png"/> <a href="./Welcome to Css.html"> <img class="code" src="./Images/ssimgboxcode.png" height="110px" alt="code for aquamarine box"/></a></div>
+<h3 id="red">Open it. Click the link inside. It won't bite. Don't be scared.</h3>
+</body>
+</html>
